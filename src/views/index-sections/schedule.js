@@ -39,11 +39,11 @@ function Schedule() {
                     role="button"
                     size="lg"
                     onClick={() => {
-                      document.getElementById("download-button").click();
+                      document.getElementById("tour-link").click();
                     }}
                   >
                     Inscreva-se!
-                    <a id="download-button" style={{ display: "none" }} href="https://forms.gle/txkiBMUtiJxvChyD8" target="_blank"></a>
+                    <a id="tour-link" style={{ display: "none" }} href="https://forms.gle/txkiBMUtiJxvChyD8" target="_blank"></a>
                   </Button>
                   
                 </div>
@@ -62,7 +62,7 @@ function Schedule() {
                   <p className="description schedule-description">
                     <b>Palestra: A vivência na UFRN</b>
                     <br />
-                    Apresentação de algumas entidades estudantis da UFRN com impacto no IMD: Diretório Acadêmico Ada Lovelace (DAAL), Diretório Central dos Estudantes José Nilson Pinheiro (DCE UFRN), Programa de Educação Tutorial de Ciência da Computação e Instituto de Engenheiros Eletricistas e Eletrônicos Ramo Estudantil UFRN (IEEE)
+                    Apresentação de algumas entidades estudantis da UFRN com impacto no IMD: Diretório Acadêmico Ada Lovelace (DAAL), Diretório Central dos Estudantes José Nilson Pinheiro (DCE UFRN), Programa de Educação Tutorial de Ciência da Computação e Instituto de Engenheiros Eletricistas e Eletrônicos Ramo Estudantil UFRN (IEEE).
 
                   </p>
                   <p className="category text-info-schedule">18h45 às 20h25 - Sala A308</p>
@@ -130,14 +130,27 @@ function Schedule() {
                     style={{ padding: "0 !important", margin: "0 !important" }}>Sexta-feira</h4>
                   <p className="category text-info-schedule">13h00 às 14h40 - Sala B204</p>
                   <p className="description schedule-description">
-                    <b>Mesa Redonda: Tirando Dúvidas com o DAAL</b>
+                    <b>Mesa Redonda: DAAL e Tirana</b>
                     <br />
-                    Mesa Redonda com a Gestão do Diretório Acadêmico Ada Lovelace (DAAL) tirando dúvidas e encerramento da semana de integração.
+                    Mesa redonda sobre eventuais dúvidas e encerramento da semana de integração com o DAAL e a Tirana.
                   </p>
                 </div>
               </Col>
             </Row>
           </div>
+          <h3 id="title-membros" className="title schedule-title">Toda a programação será transmitida no canal do Youtube do DAAL</h3>
+          <Button
+                className="btn-round mr-1"
+                color="info"
+                role="button"
+                size="lg"
+                onClick={() => {
+                  document.getElementById("yt-button").click();
+                }}
+              >
+                <i className="now-ui-icons media-1_button-play mr-1"></i> <b>@daal-imd</b>
+                <a id="yt-button" style={{display: "none"}} href="https://www.youtube.com/@daal-imd" target="_blank"></a>
+              </Button>
         </Container>
       </div >
     </>
