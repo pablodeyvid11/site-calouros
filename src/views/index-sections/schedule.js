@@ -27,11 +27,11 @@ function Schedule() {
                     style={{ padding: "0 !important", margin: "0 !important" }}>Segunda-feira</h4>
                   <p className="category text-info-schedule">10h50 às 12h30 - Térreo</p>
                   <p className="description schedule-description">
-                    Tuor pelo IMD - Turno Matutino
+                    Tour pelo IMD - Turno Matutino
                   </p>
                   <p className="category text-info-schedule">16h50 às 18h30 - Térreo</p>
                   <p className="description schedule-description">
-                    Tuor pelo IMD - Turno Vespertino
+                    Tour pelo IMD - Turno Vespertino
                   </p>
                   <Button
                     className="btn-round mr-1"
