@@ -15,13 +15,13 @@ import Manual from "views/examples/Manual.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
+//<Route path="/manual" element={<Manual />} />
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/index" element={<Index />} />
 
-      <Route path="/manual" element={<Manual />} />
+      
 
       <Route path="*" element={<Navigate to="/index" replace />} />
     </Routes>

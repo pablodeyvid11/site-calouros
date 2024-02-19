@@ -17,6 +17,21 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
+/*
+
+              <NavItem>
+                <Button
+                  className="nav-link btn-neutral"
+                  color="info"
+                  href="/manual"
+                  id="upgrade-to-pro"
+                >
+                  <i className="now-ui-icons transportation_air-baloon mr-1"></i>
+                  <p>Manual do Calouro</p>
+                </Button>
+              </NavItem>
+ */
+
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
@@ -102,17 +117,7 @@ function IndexNavbar() {
                   <p>Semana de Integração</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <Button
-                  className="nav-link btn-neutral"
-                  color="info"
-                  href="/manual"
-                  id="upgrade-to-pro"
-                >
-                  <i className="now-ui-icons transportation_air-baloon mr-1"></i>
-                  <p>Manual do Calouro</p>
-                </Button>
-              </NavItem>
+
               <NavItem>
                 <NavLink
                   href="https://www.instagram.com/daal.ufrn"

@@ -56,10 +56,10 @@ function ExamplesNavbar() {
               href="/index"
               id="navbar-brand"
             >
-              01 - Chapa Lia
+              DAAL
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
-              Chapa independente pelo Diretório Acadêmico Ada Lovelace
+            DAAL
             </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
