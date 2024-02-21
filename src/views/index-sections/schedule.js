@@ -88,7 +88,7 @@ function Schedule() {
                   <p className="description schedule-description">
                     <b>Roda de Conversa: Entendendo o BTI e como o IMD pode ajudar os estudantes</b>
                     <br />
-                    Conversa o Setor de Apoio a Práticas Educacionais (SAPE) sobre apoio psicológico e assistência estudantil no IMD, com a Secretaria de Comunicação sobre comunicação e mídias sociais do Instituto e com a Coordenação do BTI sobre o funcionamento do curso.
+                    Conversa o Setor de Apoio a Práticas Educacionais (SAPE) sobre o acompanhamento da tragetória do estudante no BTI, com a Secretaria de Comunicação sobre comunicação e mídias sociais do Instituto e com a Coordenação do BTI sobre o funcionamento do curso.
                   </p>
                   <p className="category text-info-schedule">16h50 às 18h30 - Sala B204</p>
                   <p className="description schedule-description">
